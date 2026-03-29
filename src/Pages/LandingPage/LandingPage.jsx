@@ -37,12 +37,6 @@ export default function LandingPage() {
           </Link>
         </div>
 
-        {/* Right Illustration Placeholder */}
-        <div className="mt-8 md:mt-0">
-          <div className="w-[300px] h-[250px] bg-[#e5e7eb] rounded-2xl flex items-center justify-center">
-            <span className="text-gray-400">Illustration</span>
-          </div>
-        </div>
       </section>
 
     </div>
