@@ -3,7 +3,8 @@ import "./ServiceCard.css";
 
 const ServiceCard = ({ service }) => {
   const Icon = service.icon;
-
+  const {title,description} = service 
+  
   return (
     <div className="service-card">
       <div className="service-card-icon">
@@ -11,9 +12,9 @@ const ServiceCard = ({ service }) => {
       </div>
 
       <h3 className="text-lg font-semibold text-gray-800 mb-2">
-        {service.title}
+        {title}
       </h3>
-      <p className="text-sm text-gray-600">{service.description}</p>
+      <p className="text-sm text-gray-600">{description}</p>
     </div>
   );
 };

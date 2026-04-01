@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../Shared/Navbar/Navbar";
 import Banner from "./Banner";
 import Services from "../Service/Services";
+import ClientLogos from "../../Clients/ClientLogos";
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
 
       {/* Services */}
       <Services></Services>
+
+      {/* Company Logos */}
+       <ClientLogos></ClientLogos>
 
       {/* Footer */}
       <footer className="bg-[#1f2937] text-gray-300 py-8 text-center">
