@@ -1,11 +1,12 @@
-// ServiceCard.jsx
+import "./ServiceCard.css";
+
+
 const ServiceCard = ({ service }) => {
   const Icon = service.icon;
 
   return (
-    <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:shadow-xl transition duration-300 hover:-translate-y-1 group">
-      {/* Icon */}
-      <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-gray-100 flex items-center justify-center text-teal-700 text-xl group-hover:bg-teal-100 transition">
+    <div className="service-card">
+      <div className="service-card-icon">
         <Icon />
       </div>
 
