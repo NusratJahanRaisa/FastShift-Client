@@ -1,50 +1,22 @@
 import React from "react";
 import Navbar from "../../Shared/Navbar/Navbar";
 import Banner from "./Banner";
+import Services from "../Service/Services";
 
 export default function Home() {
   return (
-    <div className="bg-[#f5f7f6] min-h-screen">
+    <div className="bg-[#f5f7f6] min-h-screen ">
 
       {/* Navbar */}
       <Navbar></Navbar>
 
       {/* Banner Section */}
-        <Banner></Banner>
-
-      {/* Features Section */}
-      {/* <section className="max-w-7xl mx-auto px-6 py-16">
-        <h2 className="text-3xl font-bold text-[#1f2937] text-center mb-12">Why Choose FASTShift?</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-            <h3 className="text-xl font-semibold text-[#1f2937] mb-2">Fast Delivery</h3>
-            <p className="text-gray-600">
-              Get your parcels delivered on time, every time. Speed is our promise.
-            </p>
-          </div>
-          <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-            <h3 className="text-xl font-semibold text-[#1f2937] mb-2">Real-Time Tracking</h3>
-            <p className="text-gray-600">
-              Track your parcel at every step with our live tracking system.
-            </p>
-          </div>
-          <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-            <h3 className="text-xl font-semibold text-[#1f2937] mb-2">Hassle-Free</h3>
-            <p className="text-gray-600">
-              Simple, easy, and stress-free delivery experience for everyone.
-            </p>
-          </div>
+        <div className='w-11/12 mx-auto'>
+            <Banner></Banner>
         </div>
-      </section> */}
 
-      {/* Call-to-Action Section */}
-      {/* <section className="bg-[#84cc16] py-16 text-center text-white">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Ship?</h2>
-        <p className="mb-6">Start tracking and managing your parcels effortlessly with FASTShift.</p>
-        <button className="btn btn-lg px-8 py-3 bg-black text-white rounded-full font-medium hover:bg-[#1f2937] transition">
-          Get Started →
-        </button>
-      </section> */}
+      {/* Services */}
+      <Services></Services>
 
       {/* Footer */}
       <footer className="bg-[#1f2937] text-gray-300 py-8 text-center">

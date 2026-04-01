@@ -8,7 +8,7 @@ export default function LandingPage() {
       
       
       {/* Hero Section */}
-      <section className=" bg-gradient-to-r from-[#f0f2f1] to-[#d9f99d] p-10 flex flex-col md:flex-row items-center justify-between min-h-screen">
+      <section className=" bg-linear-to-r from-[#f0f2f1] to-[#d9f99d] p-10 flex flex-col md:flex-row items-center justify-between min-h-screen">
         
         
         {/* Left Content */}

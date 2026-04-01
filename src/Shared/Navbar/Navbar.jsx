@@ -4,7 +4,7 @@ import NoBGLogo from '../Logo/NoBGLogo';
 const Navbar = () => {
     return (
         <nav className="bg-white shadow-md sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-2 flex justify-between items-center">
+        <div className="w-11/12 mx-auto px-6 py-2 flex justify-between items-center">
           <div>
             <NoBGLogo></NoBGLogo>
           </div>
