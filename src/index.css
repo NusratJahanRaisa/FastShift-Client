@@ -2,6 +2,9 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
 
 .font-urbanist{
   font-family: "Urbanist", sans-serif;

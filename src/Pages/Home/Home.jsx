@@ -21,7 +21,6 @@ export default function Home() {
 
       {/* Company Logos */}
        <ClientLogos></ClientLogos>
-
       {/* Footer */}
       <footer className="bg-[#1f2937] text-gray-300 py-8 text-center">
         © 2026 FASTShift. All rights reserved.
