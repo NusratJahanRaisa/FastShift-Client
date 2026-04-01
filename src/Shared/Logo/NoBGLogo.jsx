@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/logo_no_bg.png'
+import logo from '../../assets/All/logo_no_bg.png'
 
 const NoBGLogo = () => {
     return (
