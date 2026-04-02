@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import Services from "../Service/Services";
 import ClientLogos from "../../Clients/ClientLogos";
 import Features from "../../Features/Features";
+import BeMerchant from "../../BeMerchant/BeMerchant";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       {/* Features Section */}
       <Features></Features>
 
+      <BeMerchant></BeMerchant>
       {/* Footer */}
       <footer className="bg-[#1f2937] text-gray-300 py-8 text-center">
         © 2026 FASTShift. All rights reserved.

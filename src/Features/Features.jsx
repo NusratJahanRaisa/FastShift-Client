@@ -26,7 +26,7 @@ const featuresData = [
 
 const Features = () => {
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12 space-y-8">
+    <div className="px-4 py-12 space-y-8  w-11/12 mx-auto">
       {featuresData.map((feature, index) => (
         <div
           key={index}
@@ -36,7 +36,7 @@ const Features = () => {
           <div className="w-full md:w-1/3 h-50 flex justify-center mb-4 md:mb-0">
             <img
               src={feature.image}
-              className="w-full h-full object-contain "
+              className="w-full h-full object-contain border-r border-dashed border-gray-500"
             />
           </div>
 
